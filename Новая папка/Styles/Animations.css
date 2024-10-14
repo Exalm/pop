@@ -1,0 +1,32 @@
+@keyframes  ava-animate {
+    0%  {
+        border-radius: 17% 83% 72% 28% / 41% 23% 77% 59% ;
+    }
+
+    25% {
+        border-radius: 59% 41% 75% 25% / 45% 51% 49% 55%;
+    }
+
+    50% {
+        border-radius: 72% 28% 85% 15% / 29% 65% 35% 71%;
+    }
+
+    75% {
+        border-radius: 74% 26% 89% 11% / 21% 75% 25% 79%;
+    }
+
+    100% {
+        border-radius: 82% 18% 38% 62% / 65% 46% 54% 35% ;
+    }
+}
+
+@keyframes  ava-bg  {
+    from {
+        backgrop-filter: hue-rotate(0);
+    }
+
+    to  {
+        backdrop-filter: hue-rotate(90deg);
+    }
+
+}
